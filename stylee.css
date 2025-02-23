@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tuitorials point</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page first-page">
+        <header>
+            <div class="menu">
+                <a href="#">Menu</a>
+                <a href="#">Categories</a>
+            </div>
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+        </header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search tutorials, courses and ebooks">
+        </div>
+        <div class="categories">
+            <a href="#">SQL</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">Javascript</a>
+            <a href="#">Python</a>
+            <a href="#">Java</a>
+            <a href="#">C</a>
+            <a href="#">C++</a>
+        </div>
+        <div class="dashboard">
+            <p><a href="./code.html" class="dashboard">dashboard ^</a></p>
+        </div>
+<div class="dashboard">
+    <header>
+        <div class="menu">
+            <a href="#">Menu</a>
+            <a href="#">Categories</a>
+        </div>
+        <div class="login">
+            <a href="#">Login</a>
+        </div>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search tutorials, courses and ebooks">
+    </div>
+    <div class="content">
+        <h1>Software Engineering Tutorial</h1>
+        <ul><table><tr><td></td>
+            <li><a href="#">Software Engineering Home</a></li>
+            <li><a href="#">Software Engineering Overview</a></li>
+            <li><a href="#">Software Development Life Cycle</a></li>
+            <li><a href="#">Software Project Management</a></li>
+            <li><a href="#">Software Requirements</a></li>
+            <li><a href="#">Software Design Basics</a></li>
+            <li><a href="#">Analysis & Design Tools</a></li>
+            <li><a href="#">Software Design Strategies</a></li>
+        </td><td></td></tr></table>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
