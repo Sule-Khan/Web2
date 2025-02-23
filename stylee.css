@@ -1,63 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>tuitorials point</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="page first-page">
-        <header>
-            <div class="menu">
-                <a href="#">Menu</a>
-                <a href="#">Categories</a>
-            </div>
-            <div class="login">
-                <a href="#">Login</a>
-            </div>
-        </header>
-        <div class="search-bar">
-            <input type="text" placeholder="Search tutorials, courses and ebooks">
-        </div>
-        <div class="categories">
-            <a href="#">SQL</a>
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">Javascript</a>
-            <a href="#">Python</a>
-            <a href="#">Java</a>
-            <a href="#">C</a>
-            <a href="#">C++</a>
-        </div>
-        <div class="dashboard">
-            <p><a href="./code.html" class="dashboard">dashboard ^</a></p>
-        </div>
-<div class="dashboard">
-    <header>
-        <div class="menu">
-            <a href="#">Menu</a>
-            <a href="#">Categories</a>
-        </div>
-        <div class="login">
-            <a href="#">Login</a>
-        </div>
-    </header>
-    <div class="search-bar">
-        <input type="text" placeholder="Search tutorials, courses and ebooks">
-    </div>
-    <div class="content">
-        <h1>Software Engineering Tutorial</h1>
-        <ul><table><tr><td></td>
-            <li><a href="#">Software Engineering Home</a></li>
-            <li><a href="#">Software Engineering Overview</a></li>
-            <li><a href="#">Software Development Life Cycle</a></li>
-            <li><a href="#">Software Project Management</a></li>
-            <li><a href="#">Software Requirements</a></li>
-            <li><a href="#">Software Design Basics</a></li>
-            <li><a href="#">Analysis & Design Tools</a></li>
-            <li><a href="#">Software Design Strategies</a></li>
-        </td><td></td></tr></table>
-        </ul>
-    </div>
-</div>
-</body>
-</html>
+body {
+    font-family: Arial;
+}
+
+.page {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+}
+.menu, .login {
+    margin-left: 20px;
+}
+
+.menu a, .login a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categories a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #333;
+}
